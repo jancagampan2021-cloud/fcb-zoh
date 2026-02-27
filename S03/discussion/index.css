@@ -1,0 +1,113 @@
+/*
+CSS Rules - applying a style on a specific element
+
+selector {
+
+}
+
+
+
+
+
+
+- class
+*/
+
+/* Universal Selector */
+* {
+	font-family: "Courier New", monospace;
+
+	/*CSS Reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	/*smooth scrolling when we navigate to different sections of the page using anchor tags*/
+	scroll-behavior: smooth;
+}
+/*Type Selector*/
+h1 {
+	font-family: "Tahoma", sans-serif ;
+}
+
+body {
+	/*background-color: skyblue;*/
+	background-image: url(https://wallpapercave.com/wp/wp10821322.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+section {
+	text-align: center;
+}
+
+/* Class Selector - add a period (.) before the name of the target class. */
+
+.nav-link {
+	font-size: 18px;
+}
+
+nav {
+	background-color: white;
+	text-align: center;
+	/* padding is a property that allow us to add space within an element*/
+	padding: 15px;
+}
+
+.title {
+	/*color: green;*/
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* ID Selector - add hash (#) before the target element with ID value */
+#hello {
+	color: black;
+	/* 2rem = 2(16px) ~ 32px */
+	font-size: 2rem;
+}
+
+#logo {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.module-card {
+	height: 350px;
+	width: 800px;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	/* auto allow us to automatically calculate the remaining space within the parent element*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#modules {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleHeader {
+	margin-top: 30px;
+}
+
+.module-img {
+	height: 200px;
+	width: 200px;
+}
